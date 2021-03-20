@@ -19,8 +19,11 @@
   font-size: 12px;
 }
 #header .header-title {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
   font-size: 32px;
   font-weight: bold;
+  border-bottom: 1px solid #ebebeb;
 }
 #header .header-id {
   display: flex;
@@ -28,7 +31,7 @@
   justify-content: center;
   position: absolute;
   right: 0;
-  bottom: 5px;
+  bottom: 10px;
   width: 40px;
   height: 40px;
   background: linear-gradient(150.95deg, #a4a9b5 6.43%, rgba(164, 169, 181, 0) 82.14%), #c4c4c4;
@@ -37,6 +40,23 @@
   font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+/* bestM */
+.bestM .best-title .bt-stit {
+  color: #da5e7c;
+  font-size: 12px;
+  line-height: 20px;
+}
+.bestM .best-title .bt-tit {
+  padding-bottom: 5px;
+  font-size: 22px;
+}
+.bestM .best-title .bt-desc {
+  margin-bottom: 10px;
+  color: #818181;
+  font-size: 22px;
+  font-weight: 300;
 }
 
 @media (max-width: 1020px) {
